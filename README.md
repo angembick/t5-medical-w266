@@ -1,0 +1,3 @@
+# t5-medical-w266
+
+In healthcare, automated question-answering is challenging due to the lack of related examples. Questions tend to be specific to the patient and use medical terminology that is relatively rare and potentially ‘unknown’ in the latest word embedding models. One promising approach to domain-specific question-answering is to retrieve question-answer pairs that are most similar to new questions [1]. We extend this method by leveraging one of the latest NLP transformer models and a large medical question-answer dataset (MedQuAD) curated for this problem. We found that pre-training a T5 transformer encoder-decoder model on MedQuAD with added context from similar questions produced a modest improvement on patient question-answering.
